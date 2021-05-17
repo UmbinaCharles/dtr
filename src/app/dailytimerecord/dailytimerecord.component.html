@@ -1,0 +1,21 @@
+<div class="digitalClock">
+    <div class="dayTitle">
+        {{day}}
+    </div>
+    <div class="digitalTime">
+        <div>{{hour}} : &nbsp;</div>
+        <div>{{minute}} : &nbsp;</div>
+        <div>{{second}}  &nbsp;</div>
+        <div class="ampm">{{ampm}}</div>
+    </div>
+</div>
+
+
+    <mat-form-field>
+        <mat-label>Select an option</mat-label>
+        <mat-select>
+                <mat-option value = "timeIn">Time In</mat-option>
+                <mat-option value = "timeOut">time Out</mat-option>
+        </mat-select>
+    </mat-form-field>
+
